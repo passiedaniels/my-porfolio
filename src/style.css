@@ -10,7 +10,8 @@ body {
   color: var(--secondary-color);
   padding: 160px 20px;
 }
-.hero-1 {
+.header-1 {
+  margin-bottom: 50px;
   background-image: url(/images/bg.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +29,7 @@ h1 {
 h3 {
   font-family: var(--heading-family-font);
   font-weight: 700;
-  font-style: bold;
+
   font-size: 24px;
   line-height: 100%;
 }
@@ -39,7 +40,6 @@ p {
   line-height: 30px;
   font-weight: 400;
   font-style: normal;
-  text-align: center;
 }
 
 .btn-branding {
@@ -48,4 +48,31 @@ p {
   border-radius: 50px;
   color: var(--primary-color);
   text-decoration: none;
+}
+.equal-img {
+  height: 240px;
+  width: 400px;
+}
+@media (max-width: 800px) {
+  .header-1 {
+    padding: 100px 20px;
+    background-position: center;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .btn-branding {
+    padding: 9px 15px;
+    font-size: 12px;
+  }
+  .equal-img {
+    height: 200px;
+    width: 350px;
+  }
 }
