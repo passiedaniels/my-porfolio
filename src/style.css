@@ -1,11 +1,51 @@
-h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
+:root {
+  --primary-color: #202020;
+  --secondary-color: #ffffff;
+  --heading-family-font: "Roboto", sans-serif;
+  --basic-family-font: "Roboto", sans-serif;
 }
+body {
+  text-align: center;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 160px 20px;
+}
+.hero-1 {
+  background-image: url(/images/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+}
+
+h1 {
+  font-family: var(--heading-family-font);
+  font-weight: 700;
+  font-style: bold;
+  font-size: 72px;
+  line-height: 2;
+}
+h3 {
+  font-family: var(--heading-family-font);
+  font-weight: 700;
+  font-style: bold;
+  font-size: 24px;
+  line-height: 100%;
+}
+
 p {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+  font-family: var(--basic-family-font);
+  font-size: 18px;
+  line-height: 30px;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+}
+
+.btn-branding {
+  padding: 18px 30px;
+  background: var(--secondary-color);
+  border-radius: 50px;
+  color: var(--primary-color);
+  text-decoration: none;
 }
