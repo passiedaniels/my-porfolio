@@ -37,6 +37,9 @@ h5 {
   font-size: 18px;
   color: #f65282;
 }
+h6 {
+  color: #f65282;
+}
 
 p {
   font-family: var(--basic-family-font);
@@ -76,6 +79,9 @@ p {
 }
 .gallery {
   margin-bottom: 100px;
+}
+.contact {
+  margin-bottom: 150px;
 }
 
 @media (max-width: 800px) {
