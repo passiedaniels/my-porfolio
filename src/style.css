@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #202020;
+  --primary-color: #1b1b1b;
   --secondary-color: #ffffff;
   --heading-family-font: "Roboto", sans-serif;
   --basic-family-font: "Roboto", sans-serif;
@@ -33,6 +33,10 @@ h3 {
   font-size: 24px;
   line-height: 100%;
 }
+h5 {
+  font-size: 18px;
+  color: #f65282;
+}
 
 p {
   font-family: var(--basic-family-font);
@@ -49,10 +53,28 @@ p {
   color: var(--primary-color);
   text-decoration: none;
 }
+.btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+}
+.camera {
+  background: #2d2727;
+  border-radius: 20px;
+}
+
 .equal-img {
   height: 240px;
   width: 400px;
 }
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.grid-text {
+  text-align: left;
+}
+
 @media (max-width: 800px) {
   .header-1 {
     padding: 100px 20px;
@@ -64,6 +86,7 @@ p {
   h3 {
     font-size: 16px;
   }
+
   p {
     font-size: 12px;
   }
@@ -71,8 +94,12 @@ p {
     padding: 9px 15px;
     font-size: 12px;
   }
+
   .equal-img {
     height: 200px;
     width: 350px;
+  }
+  .grid-wrapper {
+    grid-template-columns: 1fr;
   }
 }
