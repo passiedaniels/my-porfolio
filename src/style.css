@@ -85,7 +85,8 @@ p {
   margin-bottom: 150px;
 }
 .shecodes {
-  max-height: 150px;
+  max-width: 100px;
+  max-height: 20px;
 }
 nav {
   padding: 30px 0;
@@ -99,6 +100,7 @@ nav li {
   list-style: none;
   line-height: 30px;
   margin-right: 25px;
+  font-size: 14px;
 }
 nav a {
   text-decoration: none;
@@ -107,6 +109,22 @@ nav a {
 nav a:hover,
 nav a.active {
   color: blueviolet;
+}
+footer {
+  background: #282323;
+  padding: 8px 0;
+  text-align: center;
+}
+footer a {
+  color: #ffffff;
+  margin-right: 12px;
+}
+footer img {
+  max-width: 80px;
+  max-height: 25px;
+}
+footer p {
+  font-size: 15px;
 }
 
 @media (max-width: 800px) {
@@ -138,6 +156,13 @@ nav a.active {
   }
   nav li {
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 12px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+  footer a {
+    margin-right: 5px;
+    font-size: 12px;
   }
 }
