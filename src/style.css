@@ -5,10 +5,11 @@
   --basic-family-font: "Roboto", sans-serif;
 }
 body {
-  text-align: center;
   background: var(--primary-color);
   color: var(--secondary-color);
-  padding: 160px 20px;
+}
+.body {
+  text-align: center;
 }
 .header-1 {
   margin-bottom: 50px;
@@ -16,7 +17,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px;
+  padding: 200px;
 }
 
 h1 {
@@ -83,6 +84,30 @@ p {
 .contact {
   margin-bottom: 150px;
 }
+.shecodes {
+  max-height: 150px;
+}
+nav {
+  padding: 30px 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 30px;
+  margin-right: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+nav a:hover,
+nav a.active {
+  color: blueviolet;
+}
 
 @media (max-width: 800px) {
   .header-1 {
@@ -110,5 +135,9 @@ p {
   }
   .grid-wrapper {
     grid-template-columns: 1fr;
+  }
+  nav li {
+    margin-right: 15px;
+    font-size: 15px;
   }
 }
