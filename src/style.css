@@ -129,6 +129,10 @@ footer img {
 footer p {
   font-size: 15px;
 }
+footer p a {
+  color: blueviolet;
+  text-decoration: none;
+}
 .footer-3,
 .footer-2,
 .footer-1 {
